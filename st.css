@@ -1,0 +1,60 @@
+html {
+    background-color: deeppink;
+    font-family: "fantasy";
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.nrs {
+    background-color: white;
+    border: 1px solid black;
+    line-height: 60px;
+    width: 100%;
+}
+.cnt {
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 5px;
+    width: 320px;
+    background-color: darkmagenta;
+}
+.rstfelt {
+    background-color: black;
+    height: 60px;
+    color: white;
+    text-align: right;
+    font-size: 36px;
+}
+#s {height: 100%;
+    line-height: 124px;
+    background-color: #4c6ebd;
+    color: white;
+}
+.act {
+    background-color: #4c6ebd;
+    border: 1px darkslateblue;
+    line-height: 60px;
+    width: 100%;
+    color: white;
+}
+#sTable {
+    float: right;
+    border: 2px solid black;
+    border-collapse: collapse;
+    bottom: 388px;
+    position: relative;
+}
+#sTable th {
+    background-color: #94b0e5;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+    border: 2px solid black;
+}
+#sTable td {
+    background-color: royalblue;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}

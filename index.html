@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" language="JavaScript" src="js.js"></script>
+    <title>Kalkulator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="st.css">
+</head>
+<body>
+<table class="cnt">
+    <tr>
+        <td colspan="5" class="rstfelt">
+            <div id="rst"></div>
+        </td>
+    </tr>
+    <tr><td colspan="1"><input type="button" class="nrs" id="7" value="7" onclick="handleClick('7')"></td>
+        <td colspan="1"><input type="button" class="nrs" id="8" value="8" onclick="handleClick('8')"></td>
+        <td colspan="1"><input type="button" class="nrs" id="9" value="9" onclick="handleClick('9')"></td>
+        <td colspan="1"><input type="button" class="act" id="d/" value="/" onclick="handleClick('d/')"></td></tr>
+    <tr><td colspan="1"><input type="button" class="nrs" id="4" value="4" onclick="handleClick('4')"></td>
+        <td colspan="1"><input type="button" class="nrs" id="5" value="5" onclick="handleClick('5')"></td>
+        <td colspan="1"><input type="button" class="nrs" id="6" value="6" onclick="handleClick('6')"></td>
+        <td colspan="1"><input type="button" class="act" id="d*" value="*" onclick="handleClick('d*')"></td></tr>
+    <tr><td colspan="1"><input type="button" class="nrs" id="1" value="1" onclick="handleClick('1')"></td>
+        <td colspan="1"><input type="button" class="nrs" id="2" value="2" onclick="handleClick('2')"></td>
+        <td colspan="1"><input type="button" class="nrs" id="3" value="3" onclick="handleClick('3')"></td>
+        <td colspan="1"><input type="button" class="act" id="a-" value="-" onclick="handleClick('a-')"></td></tr>
+    <tr><td colspan="2"><input type="button" class="nrs" id="0" value="0" onclick="handleClick('0')"></td>
+        <td colspan="1"><input type="button" class="nrs" id="dot" value="." onclick="handleClick('dot')"></td>
+        <td colspan="1" rowspan="2"><input type="button" class="act" id="s" value="+" onclick="handleClick('s+')"></td></tr>
+    <tr><td colspan="3"><input type="button" class="act" id="l.t" value="=" onclick="regneut()"></td></tr>
+</table>
+<table class="cnt" id="sTable">
+    <tr><th>A</th>
+        <th>VEIKSMAS</th>
+        <th>B</th>
+        <th>=</th></tr>
+</table>
+</body>
+</html>
